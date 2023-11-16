@@ -1,0 +1,12 @@
+name: CloudPunish
+version: '${project.version}'
+main: cc.leafed.cloudpunish.CloudPunish
+api-version: '1.20'
+commands:
+  punish:
+    aliases: ["p"]
+    description: Access the punishment system
+    permission: cc.punishment
+permissions:
+  cc.punishment:
+    default: op
